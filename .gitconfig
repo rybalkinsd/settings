@@ -1,0 +1,16 @@
+[user]
+        name = Sergey Rybalkin
+        email = 
+[core]
+        autocrlf = input
+
+[branch "master"]
+        rebase = true
+        mergeoptions = --no-ff
+
+[remote "origin"]
+        prune = true
+
+[rerere]
+        enabled = true
+
