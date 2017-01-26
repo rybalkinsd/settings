@@ -10,7 +10,7 @@ echo "if [ -f ~/script/mvn ]; then . ~/script/mvn; fi" >> ~/.bash_profile
 
 #### trans
 
-Simple translation Google API
+Simple frontend for Google Translator API
 
 ```bash
 brew install wget
