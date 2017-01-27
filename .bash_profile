@@ -97,3 +97,9 @@ fi
 function ff() { find . -type f -iname '*'$*'*' -ls ; }
 # Поиск файла по шаблону в $1 и запуск команды в $2 с ним:
 function fe() { find . -type f -iname '*'$1'*' -exec "${2:-file}" {} \;  ; }
+
+export PATH=$PATH:~/script
+
+if [ -f ~/script/mvn ]; then . ~/script/mvn; fi
+
+alias services='brew services'
