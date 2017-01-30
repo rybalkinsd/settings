@@ -23,3 +23,5 @@ brew install gradle
 git clone https://github.com/dougborg/gdub.git && { cd gdub; ./install; cd ..; rm -rf gdub/; }
 echo "alias gradle=gw" >> ~/.bash_profile
 
+# less code highlight
+brew install source-highlight
