@@ -103,3 +103,8 @@ export PATH=$PATH:~/script
 if [ -f ~/script/mvn ]; then . ~/script/mvn; fi
 
 alias services='brew services'
+
+# less colors
+LESSPIPE=`which src-hilite-lesspipe.sh`
+export LESSOPEN="| ${LESSPIPE} %s"
+export LESS=' -R -X -F '
