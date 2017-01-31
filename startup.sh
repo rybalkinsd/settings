@@ -17,6 +17,8 @@ brew install maven
 # gradle
 brew install gradle
 
+# idea
+brew cask install intellij-idea
 
 # --- advanced ---
 # gw alias
