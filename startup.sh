@@ -27,3 +27,7 @@ echo "alias gradle=gw" >> ~/.bash_profile
 
 # less code highlight
 brew install source-highlight
+
+echo "LESSPIPE=\`which src-hilite-lesspipe.sh\`
+export LESSOPEN=\"| \${LESSPIPE} %s\"
+export LESS=' -R -X -F '" >> ~/.bash_profile
