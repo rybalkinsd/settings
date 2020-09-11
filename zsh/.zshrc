@@ -9,11 +9,6 @@ plugins=(
 # source zsh-syntax-highlighting.zsh
 # source zsh-history-substring-search.zsh
 
-alias mosh="mosh -6"
-alias dev="mosh -6 devvm1596.lla2.facebook.com -- tmux a"
-alias altdev="mosh -6 devvm954.lla0.facebook.com -- tmux a"
-alias bigdev='mosh devbig767.prn2.facebook.com -- tmux a'
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
